@@ -220,10 +220,8 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(){
-       for(let i = 0; i < 5; i--){}
-  }
-annoyingSong(5)
+function annoyingSong(){}
+    
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -240,11 +238,21 @@ Using the grade function below do the following:
    below should return 'you got an F'
 */
   
-function grade(/*Your Code here */){
-  /*Your Code here */
+function grade(A,B,C,D,F){
+  if (A >= 90){
+    return "you got an A"
+  }else if(B >= 80){
+    return "you got a B"
+  }else if (C >= 70){
+    return "you got a C"
+  }else if (D >= 60){
+    return "you got a D"
+  }else if ( F <= 59){
+    return "you got an F"
   }
-  
-  
+  }
+  grade(90)
+  grade(80)
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
