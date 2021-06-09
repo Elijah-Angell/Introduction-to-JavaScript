@@ -17,6 +17,12 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge= 19;
+
+if(votingAge >= 18){
+  console.log ("true")
+}
+console.log
 
 
 
@@ -220,8 +226,10 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(){}
-    
+function annoyingSong(){
+  
+}
+  
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -238,22 +246,21 @@ Using the grade function below do the following:
    below should return 'you got an F'
 */
   
-function grade(A,B,C,D,F){
+function grade(A,){
   if (A >= 90){
     return "you got an A"
-  }else if(B >= 80){
+  }  if(A >= 80){
     return "you got a B"
-  }else if (C >= 70){
+  }  if (A >= 70){
     return "you got a C"
-  }else if (D >= 60){
+  }  if (A >= 60){
     return "you got a D"
-  }else if ( F <= 59){
+  } if ( A <= 59){
     return "you got an F"
   }
   }
-  grade(90)
-  grade(80)
-
+  grade(90,80,70,60,59)
+  
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
 //Vowel Counter - How many vowels are there?
